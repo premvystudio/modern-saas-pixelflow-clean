@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@anycable/serverless-js": "^0.2.1",
+    "@anycable/web": "^1.1.0",
     "@clerk/nextjs": "^6.19.1",
     "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-dialog": "^1.1.13",
@@ -24,14 +26,18 @@
     "@upstash/redis": "^1.28.0",
     "@vercel/analytics": "^1.1.1",
     "@vercel/blob": "^1.0.1",
+    "buffer": "^6.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "crypto-browserify": "^3.12.1",
     "lucide-react": "^0.508.0",
+    "nanoid": "^5.1.5",
     "next": "^15.3.2",
     "openai": "^4.24.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "resend": "^2.1.0",
+    "stream-browserify": "^3.0.0",
     "tailwind-merge": "^3.2.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.4"
